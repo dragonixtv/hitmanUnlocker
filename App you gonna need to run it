@@ -1,0 +1,7 @@
+Microsoft Visual Studio: A popular IDE for C++ development. The community edition is available for free, and you can download it from the official Microsoft website: <https://visualstudio.microsoft.com/vs/community/>
+Git: A version control system to download the provided code. You can download the latest version from the official Git website: <https://git-scm.com/downloads>
+C++ Redistributable libraries: If you do not have them installed, you can download the latest Microsoft Visual C++ Redistributable libraries from the official Microsoft website: <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-redistributable-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>
+Once you have these applications installed, use the following command in your command prompt or terminal to download the provided code:
+git clone https://github.com/username/hitman3-dlc-unlocker.git
+Replace "username" with my GitHub username, which is "aioo-pau". This will download the code template into a directory called "hitman3-dlc-unlocker".
+After downloading the code, follow the instructions provided in the previous response to customize and compile the DLL.
