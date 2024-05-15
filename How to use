@@ -1,0 +1,16 @@
+First, make sure you have the required DLC files and game executable installed on your system.
+Create a new C++ project in your preferred IDE, such as Visual Studio.
+Add the two provided C++ code files, dlc_unlocker.cpp and define_dlc_unlocker.cpp, to the project.
+Customize the variables in the dlc_unlocker.cpp file according to your system:
+a. Update the game_exe_path variable with the actual path to your Hitman 3 game executable.
+b. Replace the dlcs variable with the actual file names, file sizes, and file paths of the DLC files.
+Implement the dlc_unlock function in the define_dlc_unlocker.cpp file using reverse engineering techniques to perform the actual DLC unlocking.
+Build the project to create the dlc_unlocker.dll library.
+If necessary, set the compatibility mode for the Hitman 3 game executable to run as an administrator.
+Copy the generated dlc_unlocker.dll library to the directory where the Hitman 3 game executable is located.
+Optionally, create a batch file or shortcut to load the DLL when starting Hitman 3. To do this, create a new batch file (.bat) with the following content:
+@echo off
+set DLL_PATH=%~dp0%
+start /wait "" "%DLL_PATH%Hitman3.exe"
+Replace %~dp0% with the correct directory path of the Hitman3.exe if needed. After saving the batch file, double-click it to run the game with the DLL loaded.
+Start the Hitman 3 game. The DLL DLC unlocker will be automatically loaded.
