@@ -13,4 +13,4 @@ Optionally, create a batch file or shortcut to load the DLL when starting Hitman
 set DLL_PATH=%~dp0%
 start /wait "" "%DLL_PATH%Hitman3.exe"
 Replace %~dp0% with the correct directory path of the Hitman3.exe if needed. After saving the batch file, double-click it to run the game with the DLL loaded.
-Start the Hitman 3 game. The DLL DLC unlocker will be automatically loaded.
+Start the Hitman 3 game. The DLL DLC unlocker will be automatically loaded
